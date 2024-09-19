@@ -65,13 +65,20 @@
 
 /* bottom-child要素の位置指定 */
 #bottom-child01 {
-  margin: 0px;
+  position: absolute;
+  left: 0px; 
 }
 
 #bottom-child02 {
-  margin-left: 200px; /* 本来の位置から200pxずらす */
+  position:absolute; /* 本来の位置から200pxずらす */
+  top: 100px;
+  left: 200px;
 }
 
 #bottom-child03 {
-  margin-left: 400px; /* 本来の位置から400pxずらす */
+  position: absolute; /* 本来の位置から400pxずらす */
+  top: 200px;
+  left: 400px;
 }
+
+
